@@ -1,21 +1,3 @@
-void readData(char* filename, vector <char>& Data)
-{
-    ifstream fin;
-    fin.open(filename);
-    
-    if (!fin.is_open())
-    {
-        cout << "Error opening file.";
-    }
-    else 
-    {
-        char ch;
-        for (int m = 0; fin.get(ch); ++m)
-			Data.push_back(ch);
-    }
-    fin.close();
-}
-
 int main()
 {
     int A = 0, a = 0, O = 0, o = 0, U = 0, u = 0, E = 0, e = 0, I = 0, i = 0, Y = 0, y = 0;
