@@ -1,8 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <fstream>
-
 using namespace std;
 
 void readData(char* filename, vector <char>& Data)
