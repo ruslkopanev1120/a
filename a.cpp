@@ -1,5 +1,3 @@
-using namespace std;
-
 void readData(char* filename, vector <char>& Data)
 {
     ifstream fin;
